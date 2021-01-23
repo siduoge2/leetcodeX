@@ -1,8 +1,5 @@
 package leecode
 
-func main() {
-
-}
 
 func relativeSortArray(arr1 []int, arr2 []int) []int {
 	var numarr [1001]int

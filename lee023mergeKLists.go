@@ -1,10 +1,10 @@
 package leecode
 
 import (
-	"fmt"
+	"github.com/siduoge2/leetcodeX/structs"
 	"math"
 )
-
+/*
 func main() {
 	l1 := &ListNode{
 		Val:  1,
@@ -52,13 +52,14 @@ func main() {
 	lists = append(lists, l3)
 	res := mergeKLists(lists)
 	fmt.Println(res)
-}
-
+}*/
+/*
 type ListNode struct {
 	Val  int
 	Next *ListNode
 }
-
+*/
+type ListNode = structs.ListNode
 func mergeKLists(lists []*ListNode) *ListNode {
 	if len(lists) == 0 {
 		return nil

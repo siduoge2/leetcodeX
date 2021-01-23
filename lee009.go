@@ -1,7 +1,5 @@
 package leecode
 
-import "fmt"
-
 func isPalindrome(x int) bool {
 	xx := x
 	if xx < 0 {
@@ -17,7 +15,7 @@ func isPalindrome(x int) bool {
 	}
 	return false
 }
-
+/*
 func main() {
 	var input []int
 	input = append(input, 181, 121, 1, 11, 111, -1, 0)
@@ -26,3 +24,4 @@ func main() {
 		fmt.Println(isPalindrome(in))
 	}
 }
+*/

@@ -1,56 +1,58 @@
 package leecode
 
-import "fmt"
+//给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。
+//
+// 请你将两个数相加，并以相同形式返回一个表示和的链表。
+//
+// 你可以假设除了数字 0 之外，这两个数都不会以 0 开头。
+//
+//
+//
+// 示例 1：
+//
+//
+//输入：l1 = [2,4,3], l2 = [5,6,4]
+//输出：[7,0,8]
+//解释：342 + 465 = 807.
+//
+//
+// 示例 2：
+//
+//
+//输入：l1 = [0], l2 = [0]
+//输出：[0]
+//
+//
+// 示例 3：
+//
+//
+//输入：l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
+//输出：[8,9,9,9,0,0,0,1]
+//
+//
+//
+//
+// 提示：
+//
+//
+// 每个链表中的节点数在范围 [1, 100] 内
+// 0 <= Node.val <= 9
+// 题目数据保证列表表示的数字不含前导零
+//
+// Related Topics 递归 链表 数学
+// 👍 5534 👎 0
 
-// 输入：(2 -> 4 -> 3) + (5 -> 6 -> 4)
-// 输出：7 -> 0 -> 8
-// Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
 
-func main() {
-	// 初始化数组
-	l0, l1, l2 := new(ListNode), new(ListNode), new(ListNode)
-	l3 := new(ListNode)
-	l0.Val = 2
-	l0.Next = l1
-	l1.Val = 4
-	l1.Next = l2
-	l2.Val = 3
-	l2.Next = l3
-	l3.Val = 5
+//leetcode submit region begin(Prohibit modification and deletion)
+/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
 
-	l00, l01, l02 := new(ListNode), new(ListNode), new(ListNode)
-	l00.Val = 8
-	l00.Next = l01
-	l01.Val = 7
-	l01.Next = l02
-	l02.Val = 7
-	r := addTwoNumbers(l0, l00)
-
-	for l0 != nil {
-		fmt.Print(l0.Val)
-		l0 = l0.Next
-	}
-	fmt.Println("")
-	for l00 != nil {
-		fmt.Print(l00.Val)
-		l00 = l00.Next
-	}
-	fmt.Println("")
-	for r != nil {
-		fmt.Print(r.Val)
-		r = r.Next
-	}
-	fmt.Println("")
-
-	fmt.Println("")
-
-}
-
-/*func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+func addTwoNumbers1(l1 *ListNode, l2 *ListNode) *ListNode {
 	num1 := l1
 	num2 := l2
 	l3 := new(ListNode)
@@ -82,10 +84,9 @@ func main() {
 		}
 	}
 	return l3
-}*/
+}
 
-/*
-func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+func addTwoNumbers2(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil && l2 == nil {
 		return nil
 	}
@@ -115,14 +116,14 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 		}
 	}
 	return l3.Next
-}*/
+}
 
 func addNode(l *ListNode, v int) *ListNode {
 	l.Next = &ListNode{Val: v}
 	return l.Next
 }
 
-func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+func addTwoNumbers3(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil && l2 == nil {
 		return nil
 	}
@@ -162,3 +163,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	return head.Next
 }
+//leetcode submit region end(Prohibit modification and deletion)

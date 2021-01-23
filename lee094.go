@@ -21,8 +21,8 @@ func inorderTraversal(root *TreeNode) []int {
 	}
 	return rest
 }
-
+/*
 func main() {
-	arr := []int{1, nil, 2, 3}
-	result := inorderTraversal(arr)
-}
+	//arr := []int{1, nil, 2, 3}
+	//result := inorderTraversal(arr)
+}*/

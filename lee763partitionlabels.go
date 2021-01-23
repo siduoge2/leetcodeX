@@ -1,10 +1,8 @@
 package leecode
 
-import "fmt"
-
-func main() {
+/*func main() {
 	fmt.Println(partitionLabels("ababcbacadefegdehijhklij"))
-}
+}*/
 func partitionLabels(S string) []int {
 	lastPosition := make(map[int32]int)
 	for index, byt := range S {

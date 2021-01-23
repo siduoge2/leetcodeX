@@ -1,7 +1,6 @@
 package leecode
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -40,10 +39,11 @@ func convert(s string, numRows int) string {
 	return result
 }
 
-func main() {
+/*func main() {
 	// s := "LEETCODEISHIRING"
 	s := "LEETCODEISHIRING"
 	numRows := 1
 	result := convert(s, numRows)
 	fmt.Println(result)
 }
+*/

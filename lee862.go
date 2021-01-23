@@ -1,16 +1,15 @@
 package leecode
 
 import (
-	"fmt"
 	"math"
 )
 
-func main() {
+/*func main() {
 	fmt.Println("length:", shortestSubarray([]int{1}, 1))
 	fmt.Println("length:", shortestSubarray([]int{1, 2}, 4))
 	fmt.Println("length:", shortestSubarray([]int{2, -1, 2}, 3))
 	fmt.Println("length:", shortestSubarray([]int{48, 99, 37, 4, -31}, 140))
-}
+}*/
 
 //返回 A 的最短的非空连续子数组的长度，该子数组的和至少为 K 。
 //

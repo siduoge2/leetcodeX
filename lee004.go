@@ -1,17 +1,8 @@
 package leecode
 
 import (
-	"fmt"
 	"sort"
 )
-
-func main() {
-	var nums1 []int
-	var nums2 []int
-	nums1 = []int{1, 2}
-	nums2 = []int{3, 4}
-	fmt.Println(findMedianSortedArrays(nums1, nums2))
-}
 
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	for _, num := range nums2 {
