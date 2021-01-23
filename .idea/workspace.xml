@@ -11,25 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d026e198-c489-4d4d-9531-2917fdef5d84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0001twoSum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0001twoSum_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0002addTwoNumbers_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/commen_structs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee001.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee002.go" beforeDir="false" afterPath="$PROJECT_DIR$/0002addTwoNumbers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee003.go" beforeDir="false" afterPath="$PROJECT_DIR$/lee003.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee004.go" beforeDir="false" afterPath="$PROJECT_DIR$/lee004.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee005.go" beforeDir="false" afterPath="$PROJECT_DIR$/lee005.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee006.go" beforeDir="false" afterPath="$PROJECT_DIR$/lee006.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee009.go" beforeDir="false" afterPath="$PROJECT_DIR$/lee009.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee023mergeKLists.go" beforeDir="false" afterPath="$PROJECT_DIR$/lee023mergeKLists.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee094.go" beforeDir="false" afterPath="$PROJECT_DIR$/lee094.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee1122relativeSortArray.go" beforeDir="false" afterPath="$PROJECT_DIR$/lee1122relativeSortArray.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee604StringIterator.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee622.go" beforeDir="false" afterPath="$PROJECT_DIR$/lee622.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee763partitionlabels.go" beforeDir="false" afterPath="$PROJECT_DIR$/lee763partitionlabels.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee862.go" beforeDir="false" afterPath="$PROJECT_DIR$/lee862.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lee003.go" beforeDir="false" afterPath="$PROJECT_DIR$/0003lengthOfLongestSubstring.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,26 +94,26 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1322" height="171" key="GridCell.Tab.0.bottom" timestamp="1611415791816">
+    <state width="1322" height="171" key="GridCell.Tab.0.bottom" timestamp="1611415836483">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1236" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1611414007122" />
-    <state width="1322" height="171" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1611415791816" />
-    <state width="1322" height="171" key="GridCell.Tab.0.center" timestamp="1611415791816">
+    <state width="1322" height="171" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1611415836483" />
+    <state width="1322" height="171" key="GridCell.Tab.0.center" timestamp="1611415836483">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1236" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1611414007122" />
-    <state width="1322" height="171" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1611415791816" />
-    <state width="1322" height="171" key="GridCell.Tab.0.left" timestamp="1611415791816">
+    <state width="1322" height="171" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1611415836483" />
+    <state width="1322" height="171" key="GridCell.Tab.0.left" timestamp="1611415836482">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1236" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1611414007122" />
-    <state width="1322" height="171" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1611415791816" />
-    <state width="1322" height="171" key="GridCell.Tab.0.right" timestamp="1611415791816">
+    <state width="1322" height="171" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1611415836482" />
+    <state width="1322" height="171" key="GridCell.Tab.0.right" timestamp="1611415836483">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1236" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1611414007122" />
-    <state width="1322" height="171" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1611415791816" />
+    <state width="1322" height="171" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1611415836483" />
     <state x="0" y="0" width="644" height="738" key="find.popup" timestamp="1611414411119">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
